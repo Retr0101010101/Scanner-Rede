@@ -1,0 +1,19 @@
+**Aviso sobre Uso Responsável**
+
+Este programa deve ser utilizado de forma ética e legal.
+A varredura de redes e dispositivos sem permissão pode ser considerada uma violação de privacidade e leis de segurança.
+Utilize-o apenas em redes e sistemas para os quais você tem autorização explícita.
+O desenvolvedor não se responsabiliza por qualquer uso inadequado ou ilegal do software.
+
+**Como Usar**
+
+1. **Escolha o Tipo de Varredura:**
+   - **Rede Interna:** Digite o range da rede (ex: `192.168.1.0/24`).
+   - **IP Público:** O programa escaneará IPs públicos automaticamente (opcional: defina um limite de IPs).
+   - **IPs Específicos:** Digite uma lista de IPs separados por vírgula (ex: `192.168.1.1, 10.0.0.1`).
+
+2. **Selecione as Portas:** O script verifica as portas 22, 80 e 443 por padrão. Mais portas podem ser adicionadas.
+
+3. **Inicie a Varredura:** Após a configuração, o script começará a varredura e mostrará os resultados de portas abertas no console e no arquivo `scan_results.txt`, salvo em "Documentos".
+
+4. **Interrompa a Execução:** Para interromper a varredura, pressione `Ctrl+C` no terminal.
